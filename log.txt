@@ -1,0 +1,70 @@
+ cd d
+  508  mkdir 0043
+  509  cd 0043
+  510  pwd
+  511  mkdir img
+  512  git init
+  513  vi hello.c
+  514  vi hello.txt
+  515  vi hi.html
+  516  vi hi.png
+  517  git add .
+  518  git commit -m "commited all files"
+  519  vi hello.c
+  520  git add .
+  521  git commit -m "c file modified"
+  522  vi hello.txt
+  523  git add .
+  524  git commit -m "modified txt file"
+  525  vi hi.html
+  526  git add .
+  527  git commit -m "modified html file"
+  528  git status
+  529  git log --oneline
+  530  git remote add origin https://github.com/ArpitSingla076/0043.git
+  531  git branch -M main
+  532  git push -u origin main
+  533  cd img
+  534  vi .gitignore
+  535  cd ..
+  536  vi .gitignore
+  537  vi .gitignore
+  538  git add .gitignore
+  539  git commit -m "this is ignored file in main folder"
+  540  cd img
+  541  git add .gitignored
+  542  git add .gitignore
+  543  git commit -m "This is commited file"
+  544  cd ..
+  545  ls
+  546  cp hello.c img
+  547  cp hello.txt img
+  548  cp hi.html img
+  549  cp hi.png img
+  550  cd img
+  551  vi hello.c
+  552  vi hello.txt
+  553  vi hi.html
+  554  vi hi.png
+  555  git add .
+  556  git commit -m "modifed files on img sub folder"
+  557  cd ..
+  558  ls
+  559  vi arpit.png
+  560  vi hi.png
+  561  git push
+  562  vi .gitignore
+  563  ls
+  564  vi .gitignore
+  565  git add .
+  566  git commit -m "GIT"
+  567  git status
+  568  vi .gitignore
+  569  git status
+  570  vi .gitignore
+  571  ls
+  572  cd img
+  573  ls
+  574  cd ..
+  575  history
+
